@@ -30,7 +30,16 @@ footer{
 }
 
 #primeNavColor {
-    background-color: #007cb9;
+    background-color: #770D15;
+}
+
+body{
+    background-color: #f9eec9;
+}
+
+/*todo figuring out where to implement this color change in navbar*/
+#navText{
+    text-decoration-color: #f9eec9;
 }
 
 
