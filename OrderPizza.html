@@ -29,7 +29,7 @@
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-
+  <!--nav primary btn -->
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
@@ -89,18 +89,20 @@
     </li> <!-- badge 3 Toppings -->
   </ul> <!-- badge ul 1,2,3 -->
 
-  <div class="card">
-    <div id="header" class="card-header blue">
+  <!-- Choose Size of Crust Card -->
+  <div class="card cardBckGnd">
+    <img src="https://image.shutterstock.com/image-photo/pizza-margherita-on-black-stone-600w-644608951.jpg" alt="">
+    <div  class="card-header chooseTitle"><!--old id="header" creates blue bkgnd color-->
       Choose Size of Crust
     </div>
 
-    <div class="card-body">
+    <div class="card-body cardHeaderColor">
       <div class="card">
-        <div class="card-header">
+        <div class="card-header" style="background-color: #d3b786">
           Hand Tossed
         </div>
         <ul class="list-group list-group-flush">
-          <li class="list-group-item">Garlic seasoned crust with a rich, buttery taste</li>
+          <li class="list-group-item" >Garlic seasoned crust with a rich, buttery taste</li>
           <li class="list-group-item form-check"><label for="ht-small"><input type="radio" id="ht-small"></label>Small (10")</li>
           <li class="list-group-item form-check"><label for="ht-medium"><input type="radio" id="ht-medium"></label>Medium (12")</li>
         </ul>
@@ -116,46 +118,55 @@
           <li class="list-group-item form-check"><label for="ct-large"><input type="radio" id="ct-large"></label>Large (14")</li>
         </ul>
       </div>
-      <footer><a href="#" class="btn btn-primary" id="next">Next step ></a></footer>
+      <footer><a href="#" class="btn btn-primary button-74" id="next">Next step ></a></footer>
     </div>
-  </div> <!-- Choose size of crust CARD -->
-  <!--*********** *********** *********** *********** *********** ***********-->
-  <div class="card">
-    <div class="card-body">
+  </div>
+  <br>
+
+  <!--Choose Cheese and Sauce card -->
+  <div class="card cardBckGnd">
+    <div class="card-body chooseTitle">
       Choose Cheese and Sauce
     </div>
+    <div class="card-body cardHeaderColor">
     <div class="card">
       <div class="card-header">
         Cheese
       </div>
       <ul class="list-group list-group-flush">
-        <li class="list-group-item"><input class="form-control" type="text" placeholder="Default input"></li>
-        <li class="list-group-item"><input class="form-control" type="text" placeholder="Default input"></li>
-        <li class="list-group-item"><input class="form-control" type="text" placeholder="Default input"></li>
+        <li class="list-group-item"><input class="form-control" type="text" placeholder="...Sharp Cheddar"></li>
+        <li class="list-group-item"><input class="form-control" type="text" placeholder="...Mozzarella Cheese"></li>
+        <li class="list-group-item"><input class="form-control" type="text" placeholder="...Gouda Cheese"></li>
       </ul>
     </div>
     <footer>
-      <a href="#" class="btn btn-primary" id="previous step">< Previous Step</a>
-      <a href="#" class="btn btn-primary" id="next step"> Next step ></a>
+      <a href="#" class="btn btn-primary button-74" id="previous step">< Previous Step</a>
+      <a href="#" class="btn btn-primary button-74" id="next step"> Next step ></a>
     </footer>
-  </div> <!-- Choose Cheese and Sauce CARD -->
-  <!--*********** *********** *********** *********** *********** ***********-->
-  <div class="card">
-    <div class="card-body">
-      Choose Toppings
     </div>
-    <div class="card">
-      <div class="card-header">
-        Featured
+  </div>
+  <br>
+  <!-- Choose toppings card -->
+    <div class="card cardBckGnd">
+      <div class="card-body chooseTitle">
+        Choose Toppings
       </div>
-      <ul class="list-group list-group-flush">
-        <li class="list-group-item">Cras justo odio</li>
-        <li class="list-group-item">Dapibus ac facilisis in</li>
-        <li class="list-group-item">Vestibulum at eros</li>
-      </ul>
+      <div class="card-body cardHeaderColor">
+      <div class="card">
+        <div class="card-header">
+          Toppings
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Basil</li>
+          <li class="list-group-item">Pepperoni</li>
+          <li class="list-group-item">Jalepeno</li>
+        </ul>
+      </div>
+
+      <!--Footer & Checkout button-->
+      <footer><a href="#" class="btn btn-primary button-74" id="checkout">Checkout</a></footer>
     </div>
-    <footer><a href="#" class="btn btn-primary" id="checkout">Checkout</a></footer>
-  </div> <!-- Choose Toppings CARD -->
+  </div>
 </div>
 <!-- Option 2: jQuery, Popper.js, and Bootstrap JS
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

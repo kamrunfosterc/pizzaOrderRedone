@@ -92,6 +92,7 @@ body{
     transform: translate(2px, 2px);
 }
 
+/*button 74 media */
 @media (min-width: 768px) {
     .button-74 {
         min-width: 120px;
@@ -99,4 +100,15 @@ body{
     }
 }
 
+.chooseTitle {
+    background-color: #597718;
+    color: #f9eec9;
+}
+.cardHeaderColor {
+    background-color: #b4000f;
+}
+
+.cardBckGnd {
+    background-color: #d3b786;
+}
 
