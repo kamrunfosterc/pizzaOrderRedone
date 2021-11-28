@@ -38,8 +38,65 @@ body{
 }
 
 /*todo figuring out where to implement this color change in navbar*/
-#navText{
-    text-decoration-color: #f9eec9;
+.navText{
+    color: #f9eec9;
+}
+
+/* button success */
+.success {
+    border-color: #58483a;
+    color: #f9eec9;
+}
+
+.success:hover {
+    background-color: #90a74c;
+    color: white;
+}
+
+/*nav link css*/
+.navColor {
+    background-color: #770D15;
+    color: #f9eec9;
+}
+
+.navColor:hover {
+    color: #90a74c;
+}
+
+   /* CSS */
+.button-74 {
+   background-color: #fbeee0;
+   border: 2px solid #422800;
+   border-radius: 25px;
+   box-shadow: #b4000f 4px 4px 0 0;
+   color: #422800;
+   cursor: pointer;
+   display: inline-block;
+   font-weight: 600;
+   font-size: 10px;
+   padding: 0 10px;
+   line-height: 30px;
+   text-align: center;
+   text-decoration: none;
+   user-select: none;
+   -webkit-user-select: none;
+   touch-action: manipulation;
+}
+
+.button-74:hover {
+    background-color: #e4b455;
+}
+
+.button-74:active {
+    box-shadow: #422800 2px 2px 0 0;
+    transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+    .button-74 {
+        min-width: 120px;
+        padding: 0 15px;
+    }
 }
 
 
